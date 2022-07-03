@@ -1,3 +1,4 @@
+//Arrays, map.find(*target*) != map.end())
 
 class Solution {
 public:
