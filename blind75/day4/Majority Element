@@ -1,0 +1,18 @@
+// moores voting algo
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int counter=0,major;
+        for(int num:nums){
+            if(!counter)
+                major=num;
+            if(major==num)
+                counter++;
+            else
+                counter--;
+        }
+        return major
+            ;
+    }
+};
